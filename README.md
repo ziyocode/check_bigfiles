@@ -5,11 +5,12 @@
 ❯ ./bigfiles -h            
 usage: bigfiles [-h] [-s SDIR] [-n COUNT]
 
+```
 optional arguments:
   -h, --help            show this help message and exit
   -s SDIR, --sdir SDIR  디렉터리
   -n COUNT, --count COUNT 갯수
-
+```
 ```
 <Sample>
 ❯ python big20.py -s /etc/ -n 20
