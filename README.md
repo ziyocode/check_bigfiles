@@ -2,7 +2,6 @@
 
 ### 디렉터리 내에 사이즈가 큰 파일을 찾습니다. 
 
-'''
 ❯ ./bigfiles -h            
 usage: bigfiles [-h] [-s SDIR] [-n COUNT]
 
@@ -33,4 +32,3 @@ optional arguments:
 /etc/apache2/original/httpd.conf                   2020/01/01-17:00  Perm:644  User:root       Size:0.021 Mbyte
 /etc/postfix/access                                2020/01/01-17:00  Perm:644  User:root       Size:0.021 Mbyte
 /etc/openldap/schema/core.ldif                     2020/01/01-17:00  Perm:444  User:root       Size:0.020 Mbyte
-```
