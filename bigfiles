@@ -46,6 +46,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.sdir is None or type(args.count) != int:
-        print("Usage: python big20.py -s {dir} -n {count}")
+        print("Usage: bigfiles -s {dir} -n {count}")
     else:
         find_bigfiles(args.sdir, args.count)
